@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div align="center">
+        <nav >
+            <a href="index.html">Home</a>
+            <a href="practice.html">practice</a>
+            <a href="about.html">about me</a>
+            <a href="aboutme.html">about</a>
+            <a href="form.html">form</a>
+            <a href="table.html">table</a>
+            <a href="premierleague.html">league table</a>
+            <a href="contact.html">contact  us</a>
+        </nav>
+    </div>
+    <div class="banner">
+
+    </div>
+    
+    <h2>
+        registration form
+    </h2>
+    <form action="" method="POST">
+        <p>
+            <label for="fname">first name</label>
+            <input type="text" placeholder="enter your first name" name="fname" id="fname" required>
+        </p>
+        <p>
+            <label for="Midname">middlename</label>
+            <input type="text" placeholder="enter you Middle name">
+        </p>
+        <p>
+            <label for="Lname">lastname</label>
+            <input type="text" placeholder=" enter your Lastname">
+        </p>
+        <p>
+            <label for="email">email</label>
+            <input type="email">
+        </p>
+        <p>
+            <label for="pass">password</label>
+            <input type="password">
+        </p>
+        <p>
+            <label for="number">phone number</label>
+            <input type="number" placeholder=" 0707766888">
+        </p>
+        <p>
+            <label for="address">address</label>
+            <textarea name="address" id="addres" cols="30" rows="10" placeholder="enter address"></textarea>
+        </p>
+        <p>
+            <label for="date">date</label>
+            <input type="date" name="date">
+        </p>
+        <p>
+            <label for="age">age</label>
+            <input type="number" min="18" max="35" name="age">
+        </p>
+        <p>
+            <LAbel>Gender</LAbel>
+            <input type="radio" name="gender"> male
+            <input type="radio" name="gender"> female
+
+        </p>
+        <label for="cv">curriculum vitae</label>
+        <input type="file" id="cv" name="cv">
+        </p>
+        <p>
+            <label for="month">month</label>
+            <input type="month">
+        </p>
+        <p>
+            <label for="week">week</label>
+            <input type="week">
+        </p>
+        <p>
+            <label for="time">time</label>
+            <input type="time">
+        </p>
+        <p>
+            <label for="color">color</label>
+            <input type="color">
+        </P>
+            <label for="range">range</label>
+            <input type="range" name="range">
+        </p>
+        <p>
+            <label for="state">state of origin</label>
+            <select name="state" id="">
+                <option value="">FCT</option>
+                <option value="">Adamawa</option>
+                <option value="">Nguru</option>
+                <option value="">Sokoto</option>
+                <option value="">Lagos</option>
+            </select>
+        </p>
+        <p>
+            <label for="">do you agree?</label>
+            <input type="checkbox">
+        </p>
+        <p>
+            <button type="submit">submit</button>
+        </p>
+    </form>
+    <style>
+        p{
+            color: green;
+            padding: 0vmax;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        h{
+            margin: 2px;
+            height: 60%;
+        }
+        
+    </style>
+        
+</body>
+</html>

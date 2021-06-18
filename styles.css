@@ -1,0 +1,95 @@
+    /* selecting by id */
+    #myinput{
+        width: 320px;
+        padding: 12px;
+    }
+    /* selecting by class name */
+    .header{
+        background: tomato;
+    }
+   body{
+       margin: 0;
+       scroll-behavior: smooth;
+   } 
+   nav{
+       background-color: teal;
+       height: 70px;
+       text-align: center;
+   }
+  nav a{
+       color: thistle;
+       text-decoration: none;
+       text-transform: capitalize;
+       margin: 10px;
+       font-size: 17px;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: 600;
+       border: 1px solid white ;
+       padding: 7px;
+
+   }
+ nav  a:hover{
+       background-color: white;
+       color: #000;
+       transition:0.5s ease-in-out;
+   }
+   /* div{
+       float: right;
+   } */
+ .banner{
+     /* background: url(images/2.jpg); background image*/
+     /* background with linear-gradient */
+     background: linear-gradient(rgba(222,66,77,0.6),rgba(77,99,44,0.4)),url(images/1.jpg);
+     height: 450px;
+ }
+ marquee{
+     /* hexadecimal color value */
+     color: #af0669;     
+     font-size: 30px;
+     text-transform: capitalize;
+ }
+ h1{
+     background-color: rgb(222,66,222);  /* rgb color value */
+     text-transform: uppercase;
+ }
+ img{
+     height: 350px;
+     width: 350px;
+     border-radius: 100%;
+     margin: 24px;
+     border: 11px dotted #af0669;
+   
+ }
+ 
+  .para{
+    background: hsla(200, 69%, 40%, 0.7);
+      color: hsla(0, 99%, 40%, 0.7);
+      font-size: 20px;
+  }
+ .myimg{
+    text-align: center;
+ }
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1px;
+    text-decoration: #af0669;
+    text-align: center;
+    text-transform: none;
+}
+ol{
+    height: 40pc;
+    cursor: text;
+    grid-area: span;
+}
+ul{
+    color: chartreuse;
+justify-items: flex-start;
+}
+p{
+    padding: 2px;
+    width: 50%;
+    text-transform: unset;
+}
+h2{
+    justify-items: normal;
+}
